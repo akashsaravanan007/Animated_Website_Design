@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F8EFBA;
+}
+.previous {
+  background-color: #ced6e0;
+  color: black;
+  margin-left: 0em;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #a4b0be;
+  color: black;
+}
+ 
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color:#f8c291;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+  padding: 20px;
+  
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #182C61;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color:#fad390;
+    color: #B53471;
+}
+</style>
+</head>
+<body>
+    <a href="menu.html" class="previous">&laquo; Go back</a>
+<center>
+<h2>CONTACT US</h2>
+<p>Nothing makes a fish bigger than almost being caught.</p>
+</center>
+<div class="container">
+  <div style="text-align:center">
+    <h2>Give your details...</h2>
+    <p>Plan your fishing time or leave a comment:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="img/logo.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <input type="text" id="country" name="country" placeholder="Your country..">
+        <label for="subject">Comment</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+       
+            <button class="button"> <a href="submit.html">Submit</a></button>
+          
+      </form>
+    </div>
+  </div>
+</div>
+<footer>
+    <p>copyright@2020<br>
+    <a href=" FISH BOWL.html">AKASH S</a></p>
+  </footer>
+</body>
+</html>

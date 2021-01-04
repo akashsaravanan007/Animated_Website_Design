@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  html{
+    background-color: #dff9fb;
+  }
+* {
+  box-sizing: border-box;
+}
+header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bold;
+    color: #dcdde1;
+    background:#00697c;
+    padding: 30px;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 390px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.p2
+{
+  height: 252px;
+  width: 100%;
+  
+}
+.p3
+{
+  height: 253px;
+  width: 100%;
+ 
+}
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  position: relative;
+  height: 253px;
+  width: 100%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color:#CAD3C8;
+    color: #B53471;
+}
+  a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  }
+            
+ a:hover {
+  background-color: #ddd;
+  color: black;
+        }
+  .previous 
+{
+    background-color: #d1ccc0;
+    color: black;
+              
+}
+            
+.next {
+    background-color: #4CAF50;
+    color: white;
+    margin-left: 81em ;
+              
+       }
+#line{
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<header>Images of fishes in Andhaman</header>
+<a href="images.html" class="previous">&laquo; Previous</a>
+<a href="index.html" class="next">Go home &raquo;</a>
+<div class="row">
+  <div class="column" style="background-color:#f1f2f6;">
+    <div class="container">
+    <img src="img/p10.jpg" class="p2">
+    <div class="overlay">Scientific name: Aprion virescens<br>
+        Mass: 8.5 kg (Adult) <br>
+        Higher classification: Aprion Cuvier & Valenciennes, 1830<br>
+        Order: Perch-like fishes<br>
+        Phylum: Chordata<br>
+        Rank: Species</div>
+  </div>
+  <h2>Green Jobfish</h2>
+    <p>The green jobfish, Aprion virescens, is a species of snapper native to the Indian and Pacific Oceans from the African 
+        coast to the Hawaiian Islands. </p>
+</div>
+  <div class="column" style="background-color:#dfe4ea;">
+    <div class="container">
+    <center><img src="img/p11.jpg" class="p2"></center>
+    <div class="overlay">Scientific name: Acanthocybium solandri<br>
+        Conservation status: Least Concern (Population stable) <br>
+        Family: Scombridae<br>
+        Higher classification: Acanthocybium<br>
+        Order: Scombriformes<br>
+        Tribe: Scomberomorini</div>
+    </div>
+    <h2>Wahoo</h2>
+    <p>Wahoo is a scombrid fish found worldwide in tropical and subtropical seas. It is best known to sports fishermen,
+         as its speed and high-quality flesh makes it a prized and valued game fish.</p>
+  </div>
+  <div class="column" style="background-color:#ced6e0;">
+    <div class="container">
+    <img src="img/p12.png" class="p3">
+    <div class="overlay">Scientific name: Caranx ignobilis<br>
+        Higher classification: Caranx<br>
+        Family: Carangidae<br>
+        Order: Carangiformes<br>
+        Phylum: Chordata<br>
+        Rank: Species</div>
+    </div>
+    <h2>The Giant Trevally</h2>
+    <p>The giant trevally, also known as the lowly trevally, barrier trevally, giant kingfish or ulua, is a species of large 
+        marine fish classified in the jack family, Carangidae. </p>
+  </div>
+
+  <div class="column" style="background-color:#f1f2f6;">
+    <div class="container">
+    <img src="img/p13.jpg" class="p2">
+    <div class="overlay">Scientific name: Caranx melampygus<br>
+        Higher classification: Caranx<br>
+        Order: Carangiformes<br>
+        Phylum: Chordata<br>
+        Rank: Species<br>
+        Family: Carangidae</div>
+    </div>
+    <h2>Blue Fin Trevally</h2>
+    <p>The bluefin trevally, Caranx melampygus, is a species of large, widely distributed marine fish classified in the jack family, 
+        Carangidae.Also known as the Blue Jack Fish. </p>
+  </div>
+  <div class="column" style="background-color:#dfe4ea;">
+    <div class="container">
+    <center><img src="img/p14.jpg" class="p2"></center>
+    <div class="overlay">Scientific name: Plectropomus leopardus<br>
+        Mass: 13 kg (Adult) <br>
+        Conservation status: Near Threatened (Population decreasing)<br>
+        Higher classification: Plectropomus<br>
+        Family: Serranidae<br>
+        Order: Perch-like fishes</div>
+    </div>
+    <h2>The Coral Trout</h2>
+    <p>The leopard coral grouper, also known as the common coral trout, leopard coral trout, blue-dotted coral grouper or spotted 
+        coral grouper, is a species of marine ray-finned fish.</p>
+  </div>
+  <div class="column" style="background-color:#ced6e0;">
+    <div class="container">
+    <img src="img/p15.jpg" class="p3">
+    <div class="overlay">Scientific name: Coryphaena hippurus<br>
+        Mass: 22 kg (Adult)<br>
+        Lifespan: 7 years<br>
+        Length: 86 – 140 cm<br>
+        Conservation status: Least Concern (Population stable)<br>
+        Family: Coryphaenidae</div>
+    </div>
+    <h2>dorado </h2>
+    <p>The mahi-mahi or common dolphinfish is a surface-dwelling ray-finned fish found in off-shore temperate, tropical, and
+         subtropical waters worldwide. </p>
+  </div>
+
+  <div class="column" style="background-color:#f1f2f6;">
+    <div class="container">
+    <img src="img/p16.jpg" class="p2">
+    <div class="overlay">Scientific name: Sphyraena<br>
+        Mass: Great barracuda: 24 kg <br>
+        Higher classification: Sphyraenidae<br>
+        Family: Sphyraenidae; Rafinesque, 1815<br>
+        Class: Actinopterygii</div>
+    </div>
+    <h2>barracuda </h2>
+    <p>A barracuda, or cuda for short, is a large, predatory, ray-finned fish known for its fearsome appearance and ferocious behaviour.
+         The barracuda is a saltwater fish of the genus Sphyraena, the only genus in the family.</p>
+  </div>
+  <div class="column" style="background-color:#dfe4ea;">
+    <div class="container">
+    <center><img src="img/p17.jpg" class="p2"></center>
+    <div class="overlay">Mass: 220 – 250 kg<br>
+        Conservation status: Endangered (Population decreasing)<br>
+        Scientific name: Thunnus thynnus<br>
+        Order: Scombriformes<br>
+        Class: Actinopterygii<br>
+        Family: Scombridae</div>
+    </div>
+    <h2>Atlantic bluefin tuna</h2>
+    <p>The Atlantic bluefin tuna is a species of tuna in the family Scombridae. It is variously known as the northern bluefin tuna,
+         giant bluefin tuna [for individuals exceeding 150 kg ], and formerly as the tunny. </p>
+  </div>
+  <div class="column" style="background-color:#ced6e0;">
+    <div class="container">
+    <img src="img/p18.png" class="p3">
+    <div class="overlay">Scientific name: Katsuwonus pelamis<br>
+        Mass: 19 kg (Adult)<br>
+        Conservation status: Least Concern (Population stable)<br>
+        Higher classification: Katsuwonus<br>
+        Order: Scombriformes<br>
+        Phylum: Chordata</div>
+    </div>
+    <h2>Skipjack Tuna </h2>
+    <p>The skipjack tuna is a medium-sized perciform fish in the tuna family, Scombridae. It is otherwise known as the balaya,
+         tongkol, arctic bonito, mushmouth, oceanic bonito, striped tuna, or victor fish.</p>
+  </div>
+  
+</div>
+<footer>
+  <p>copyright@2020<br>
+  <a href=" FISH BOWL.html" id="line">AKASH S</a></p>
+</footer>
+</body>
+</html>

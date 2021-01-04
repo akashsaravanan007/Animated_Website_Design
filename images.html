@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  html{
+    background-color: #dff9fb;
+  }
+* {
+  box-sizing: border-box;
+}
+header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bold;
+    color: #dcdde1;
+    background:#00697c;
+    padding: 30px;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 390px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.p2
+{
+  height: 252px;
+  width: 100%;
+  
+}
+.p3
+{
+  height: 253px;
+  width: 100%;
+ 
+}
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  position: relative;
+  height: 253px;
+  width: 100%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color:#CAD3C8;
+    color: #B53471;
+}
+  a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  }
+            
+ a:hover {
+  background-color: #ddd;
+  color: black;
+        }
+  .previous 
+{
+    background-color: #d1ccc0;
+    color: black;
+              
+}
+            
+.next {
+    background-color: #4CAF50;
+    color: white;
+    margin-left: 81em ;
+              
+       }
+#line{
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<header>Images of fishes in Maldives</header>
+<a href="menu.html" class="previous">&laquo; Previous</a>
+<a href="images1.html" class="next"> &raquo;next page</a>
+<div class="row">
+  <div class="column" style="background-color:#f1f2f6;">
+    <div class="container">
+    <img src="img/p1.jpg" class="p2">
+    <div class="overlay">Mass: 19,000 kg (Adult) Encyclopedia of Life<br>
+      Length: 5.5 – 10 m<br>
+      Scientific name: Rhincodon typus<br>
+      Order: Orectolobiformes<br>
+      Higher classification: Rhincodon<br>
+      Class: Chondrichthyes</div>
+  </div>
+  <h2>Whale shark</h2>
+    <p>The whale shark is a slow-moving, filter-feeding carpet shark and the largest known extant fish species. </p>
+</div>
+  <div class="column" style="background-color:#dfe4ea;">
+    <div class="container">
+    <center><img src="img/p2.jpg" class="p2"></center>
+    <div class="overlay">Scientific name: Heniochus diphreutes<br>
+      Higher classification: Heniochus<br>
+      Conservation status: Least Concern (Population stable)<br>
+      Found in: Red Sea<br>
+      Rank: Species<br>
+      Species: H. diphreutes</div>
+    </div>
+    <h2>bannerfish</h2>
+    <p>The schooling bannerfish, also known as the false moorish idol, is a marine ray-finned fish,
+       a butterflyfish from the family Chaetodontidae.</p>
+  </div>
+  <div class="column" style="background-color:#ced6e0;">
+    <div class="container">
+    <img src="img/p3.jpg" class="p3">
+    <div class="overlay">Scientific name: Amphiprioninae<br>
+      Class: Actinopterygii<br>
+      Kingdom: Animalia<br>
+      Domain: Eukaryota<br>
+      Phylum: Chordata<br>
+      Higher classification: Pomacentridae</div>
+    </div>
+    <h2>Anemonefish</h2>
+    <p>Clownfish or anemonefish are fishes from the subfamily Amphiprioninae in the family Pomacentridae. </p>
+  </div>
+
+  <div class="column" style="background-color:#f1f2f6;">
+    <div class="container">
+    <img src="img/p4.jpg" class="p2">
+    <div class="overlay">Scientific name: Plectorhinchus vittatus<br>
+      Higher classification: Plectorhinchus<br>
+      Phylum: Chordata<br>
+      Order: Perch-like fishes<br>
+      Rank: Species<br>
+      Family: Haemulidae</div>
+    </div>
+    <h2>Indian Ocean oriental sweetlips</h2>
+    <p>The Indian Ocean oriental sweetlips, Plectorhinchus vittatus, is a species of grunt native to the Indian Ocean and the western 
+      Pacific Ocean.</p>
+  </div>
+  <div class="column" style="background-color:#dfe4ea;">
+    <div class="container">
+    <center><img src="img/p5.jpg" class="p2"></center>
+    <div class="overlay">Lifespan: 8 – 20 years (In captivity)<br>
+      Scientific name: Paracanthurus hepatus<br>
+      Conservation status: Least Concern <br>
+      Mass: 600 g (Adult)<br>
+      Length: 25 – 31 cm (Adult)<br>
+      Phylum: Chordata</div>
+    </div>
+    <h2>Surgeonfish</h2>
+    <p>Paracanthurus hepatus is a species of Indo-Pacific surgeonfish. A popular fish in marine aquaria, it is the only member of 
+      the genus Paracanthurus.</p>
+  </div>
+  <div class="column" style="background-color:#ced6e0;">
+    <div class="container">
+    <img src="img/p6.jpg" class="p3">
+    <div class="overlay">Mass: 60 kg (Adult) Encyclopedia of Life<br>
+      Scientific name: Ginglymostoma cirratum<br>
+      Order: Carpet shark<br>
+      Higher classification: Ginglymostoma<br>
+      Rank: Species<br>
+      Phylum: Chordata</div>
+    </div>
+    <h2>Nurse Shark</h2>
+    <p>Nurse sharks are slow-moving bottom-dwellers and are, for the most part, harmless to humans.
+      The nurse shark is an elasmobranch fish within the family Ginglymostomatidae.</p>
+  </div>
+
+  <div class="column" style="background-color:#f1f2f6;">
+    <div class="container">
+    <img src="img/p7.jpg" class="p2">
+    <div class="overlay">Scientific name: Pterois<br>
+      Higher classification: Pteroinae<br>
+      Family: Scorpaenidae<br>
+      Kingdom: Animalia<br>
+      Class: Actinopterygii<br>
+      Order: Scorpaeniformes</div>
+    </div>
+    <h2>Lionfish</h2>
+    <p>Pterois is a genus of venomous marine fish, commonly known as lionfish, native to the Indo-Pacific. Also called zebrafish,
+       firefish, turkeyfish, tastyfish or butterfly-cod.</p>
+  </div>
+  <div class="column" style="background-color:#dfe4ea;">
+    <div class="container">
+    <center><img src="img/p8.jpg" class="p2"></center>
+    <div class="overlay">Conservation status: Endangered (Population decreasing)<br>
+      Scientific name: Cheilinus undulatus<br>
+      Higher classification: Cheilinus<br>
+      Kingdom: Animalia<br>
+      Order: Labriformes<br>
+      Phylum: Chordata</div>
+    </div>
+    <h2>Napoleon Wrasse</h2>
+    <p>The Napoleon wrasse is a large species of wrasse mainly found on coral reefs in the Indo-Pacific region.
+       It is also known as the Māori wrasse, Humphead  wrasse, Napoleon fish, Napoleonfish.</p>
+  </div>
+  <div class="column" style="background-color:#ced6e0;">
+    <div class="container">
+    <img src="img/p9.jpg" class="p3">
+    <div class="overlay">Scientific name: Chaetodon collare<br>
+      Conservation status: Least Concern (Population stable)<br>
+      Higher classification: Chaetodon<br>
+      Phylum: Chordata<br>
+      Order: Perch-like fishes<br>
+      Rank: Species</div>
+    </div>
+    <h2>Collared Butterflyfish</h2>
+    <p>The Collared butterflyfish or redtail butterflyfish, also known as the Pakistani butterflyfish, is a species of butterflyfish.
+      It usually swims at depths of between 3 and 15 m.</p>
+  </div>
+  
+</div>
+<footer>
+  <p>copyright@2020<br>
+  <a href=" FISH BOWL.html" id="line">AKASH S</a></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Success</title>
+
+        <style>
+            body{
+                background-color: #dcdde1;
+            }
+            .button {
+              display: inline-block;
+              border-radius: 4px;
+              background-color: #f4511e;
+              border: none;
+              color: #FFFFFF;
+              text-align: center;
+              font-size: 28px;
+              padding: 20px;
+              width: 200px;
+              transition: all 0.5s;
+              cursor: pointer;
+              margin: 100px;
+            }
+            
+            .button span {
+              cursor: pointer;
+              display: inline-block;
+              position: relative;
+              transition: 0.5s;
+            }
+            
+            .button span:after {
+              content: '\00bb';
+              position: absolute;
+              opacity: 0;
+              top: 0;
+              right: -20px;
+              transition: 0.5s;
+            }
+            
+            .button:hover span {
+              padding-right: 25px;
+            }
+            
+            .button:hover span:after {
+              opacity: 1;
+              right: 0;
+            }
+            </style>
+
+    </head>
+
+    <body>
+        <h1>Your review/comment is saved sucessfully.</h1>
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        <center>
+        <h3>Thanks for your interst.</h3>
+        <h3>We are waiting to reach you again.</h3>
+        <h3>Click below button to go home page</h3>
+    </center>
+    <center>
+        <a href="index.html"
+    <button class="button" style="vertical-align:middle"><span>Home </span></button>
+    </a>
+    </center>
+    </body>
+</html>

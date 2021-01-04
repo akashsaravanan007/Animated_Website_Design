@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f1e3;
+}
+.previous {
+  background-color: #ced6e0;
+  color: black;
+  margin-left: 0em;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #a4b0be;
+  color: black;
+}
+    
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #FDA7DF;
+  color: #6F1E51;
+  transform: rotateY(180deg);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #ff5252;
+  color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 4px;
+    background-color:#17c0eb;
+    color: white;
+}
+
+</style>
+</head>
+<body>
+<a href="index.html" class="previous">&laquo; Go Home</a>
+<center>
+<h1>PROFILE CARD</h1>
+<h3>CONTACT US<a href="contact.html">HERE</h3></a>
+</center>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="img/profile1.jpg" alt="Avatar" style="width:400px;height:400px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>AKASH S</h1> 
+      <h4>FRONT END DEVOLOPER</h4> 
+      <h4>ANIMATED WEB DEVOLOPMENT DESIGN</h4>
+      <h4>Akash@example.com</h4>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+  </div>
+</div>
+<br><br><br><br><br><br><br><br><br>
+<footer>
+    <p>copyright@2020</p>
+    <a href=" FISH BOWL.html">AKASH S</a>
+    
+  </footer>
+</body>
+</html>
